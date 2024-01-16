@@ -1,21 +1,30 @@
 {
-  "name": "sit725-prac6",
+  "name": "sit725-2023-t2-p2",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "mocha --reporter spec",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenliu8964/sit725-2023-t2-prac2.git"
+  },
   "author": "",
   "license": "ISC",
-  "description": "npm install npm init npm install express",
-  "dependencies": {
-    "chai": "^4.3.10",
-    "express": "^4.18.2",
-    "mocha": "^10.2.0",
-    "request": "^2.88.2"
+  "bugs": {
+    "url": "https://github.com/stephenliu8964/sit725-2023-t2-prac2/issues"
   },
-  "directories": {
-    "test": "test"
+  "homepage": "https://github.com/stephenliu8964/sit725-2023-t2-prac2#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "expresss": "^0.0.0",
+    "http": "^0.0.1-security",
+    "mocha": "^10.2.0",
+    "mongodb": "^4.4.1",
+    "nodemon": "^3.0.1",
+    "request": "^2.88.2",
+    "socket.io": "^4.7.4"
   }
 }
