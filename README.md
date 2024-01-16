@@ -1,1 +1,11 @@
-# sit725-2023-t1-prac7
+npm install
+npm init
+npm install express
+
+mkdir test
+
+npm install --save mocha chai request
+
+update -> "test": "mocha --reporter spec"
+
+
